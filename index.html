@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main-body">
+        <h1>Filter Question Form</h1>
+        <div>
+            <p>NAME</p>
+            <input id="name" type="text">
+
+            <p>E-MAIL</p>
+            <input id="email" type="email">
+
+            <p>CLASS</p>
+            <select class="form-input-box" name="class" id="class">
+                <option value="Select A Class">Select A Class</option>
+                
+                <option value="VI">VI</option>
+                <option value="VII">VII</option>
+                <option value="VIII">VIII</option>
+                <option value="IX">IX</option>
+                <option value="X">X</option>
+                <option value="XI">XI</option>
+                <option value="XII">XII</option>
+            </select>
+
+            <p>SECTION</p>
+            <select class="form-input-box" name="section" id="section">
+                <option value="Select a section">Select a section</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+                <option value="H">H</option>
+                <option value="I">I</option>
+                <option value="J">J</option>
+            </select>
+        </div>
+
+        <button onClick="sendData()">Send</button>
+    </div>
+
+</body>
+
+</html>
