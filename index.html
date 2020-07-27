@@ -9,15 +9,15 @@
 
 <body>
     <div class="main-body">
-        <h1>Filter Question Form</h1>
+        <p class="header">Filter Question Form</p>
         <div>
-            <p>NAME</p>
+            <p class=info-box>NAME</p>
             <input id="name" type="text">
 
-            <p>E-MAIL</p>
+            <p class=info-box>E-MAIL</p>
             <input id="email" type="email">
 
-            <p>CLASS</p>
+            <p class=info-box>CLASS</p>
             <select class="form-input-box" name="class" id="class">
                 <option value="Select A Class">Select A Class</option>
                 
@@ -30,7 +30,7 @@
                 <option value="XII">XII</option>
             </select>
 
-            <p>SECTION</p>
+            <p class=info-box>SECTION</p>
             <select class="form-input-box" name="section" id="section">
                 <option value="Select a section">Select a section</option>
                 <option value="A">A</option>
@@ -46,7 +46,7 @@
             </select>
         </div>
 
-        <button onClick="sendData()">Send</button>
+        <button class="submit" onClick="sendData()">Send</button>
     </div>
 
 </body>

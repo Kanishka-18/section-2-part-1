@@ -1,5 +1,25 @@
 .main-body {
     width: 40%;
     margin: auto;
-    background-color: yellow;
+    background-color: white;
+}
+
+.header {
+    color: black;
+    font-size: 2.9vw;
+    font-weight: bold;
+}
+
+.info-box {
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
+.submit {
+    margin: 2vw 0vw;
+    /* padding: 1.3vw; */
+    background-color: blue;
+    color: white;
+    size: 0.8vw;
 }
